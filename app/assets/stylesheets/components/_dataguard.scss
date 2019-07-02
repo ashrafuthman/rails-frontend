@@ -1,0 +1,90 @@
+body {
+    background-color: white
+}
+
+.data-card {
+    border: 1px solid #eee;
+    width: 860px;
+    height: 560px;
+    position: relative;
+    box-shadow: 1px 1px #888888;
+
+}
+
+.inputs, .welcome-text {
+    position: relative;
+    top: 128px;
+    left: 40px;
+    max-width: 80%;
+}
+
+.btn-check {
+    display: inline-block;
+}
+
+.forgot {
+    position: absolute;
+    bottom: 18px;
+    left: 40px;
+}
+.data-img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    width: 315px;
+
+
+
+}
+
+.btn-primary {
+    background-color: #c63b48;
+    border: 1px solid #c63b48;
+    box-shadow: 1px 1px #888888;
+
+
+}
+
+.data-img img {
+    height: 560px;
+    width: 300px;
+}
+
+@media (max-width: 770px) { 
+    .data-img img {
+        visibility: hidden;
+    }
+    .data-img {
+        position: absolute;
+        top: 0px;
+        background-image: asset-url("phone-img.png");
+        background-repeat: no-repeat, repeat;
+        height: 150px;
+        width:100%;
+        background-size: cover; /* Resize the background image to cover the entire container */
+
+
+
+    }
+    .data-card {
+        width: 335px;
+        height: 565px;
+        position: relative;
+    
+    }
+    .forgot {
+        position: absolute;
+        bottom: 21px;
+        left: 11.82px;
+    }
+    .inputs, .welcome-text {
+        position: relative;
+        top: 168px;
+        left: 20px;
+        width: 100%;
+    }
+    .form {
+        width: 114%;
+    }
+ }
